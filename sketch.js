@@ -54,7 +54,7 @@ function setup(){
     box35 = new Cbox(960,480,25,25);
     box36 = new Cbox(1060,480,25,25);
     box37 = new Cbox(1035,480,25,25);
-    hitter = new Hitter(500,500,50,50);
+    hitter = new Hitter(200,410,50,50);
     sling = new SlingShot(hitter.body,{x:200,y:410});
 
     
