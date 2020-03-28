@@ -22,9 +22,8 @@ class SlingShot{
     }
 
     display(){
-         rect(200,510,20,120);
-        rect(180,440,20,80);
-        rect(220,440,20,80);
+         image(this.sling1,200,370);
+         image(this.sling2,170,370)
         if(this.sling.bodyA){
             var pointA = this.sling.bodyA.position;
             var pointB = this.pointB;
